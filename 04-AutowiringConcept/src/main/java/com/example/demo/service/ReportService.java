@@ -1,6 +1,7 @@
 package com.example.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import com.example.demo.dao.ReportDAO;
 
@@ -10,6 +11,7 @@ public class ReportService
 	ReportDAO reportDAO;
 	
 	@Autowired
+	@Qualifier("report2")
 	public void setReportDAO(ReportDAO reportDAO) 
 	{
 		this.reportDAO = reportDAO;
