@@ -12,8 +12,9 @@ public class CacheManager implements ApplicationRunner{
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
-		System.out.println("Inside the Application Manager CLass .....");
+		System.out.println("Login for fetching dTAT FROM db");
 		
 	}
+
 
 }

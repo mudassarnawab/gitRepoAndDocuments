@@ -1,5 +1,6 @@
 package in.codeArae.beans;
 
+
 public class Car 
 {
 	

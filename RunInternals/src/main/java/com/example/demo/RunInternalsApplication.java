@@ -8,9 +8,14 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class RunInternalsApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext run 
-		= SpringApplication.run(RunInternalsApplication.class, args);
-		System.out.print("Mudassar"+run);
+		ConfigurableApplicationContext run = SpringApplication.run(RunInternalsApplication.class, args);
+		
+		
+		//System.out.print("Mudassar"+run);
+		
+		
+		
+		
 	}
 
 }
